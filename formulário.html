@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <input type="text" placeholder="Seu Nome" />
+        <br/>
+        <label for="email">Seu e-mail</label>
+        <input id= "email" type="email"/>
+        <br/>
+        <input type="Tel" placeholder= "Seu telefone"/> <br/>
+        <input type="number" max="10" min="2" step="2"/> <br/>
+        <input type="file"/> <br>
+        <input type="color"> <br>
+        <input type="checkbox" id="checkbox-termos"/><label for="checkbox-termos">Aceito os termos</label>
+        <p>
+        Qual sua cor favorita?
+        </p>
+        <input type="radio" name="cor-favorita" id="cor-Vermelho"><label for="cor-Vermelho">Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-Lilás"><label for="cor-Lilás">Lilás</label>
+        <input type="radio" name="cor-favorita" id="cor-Preto"><label for="cor-Preto">Preto</label> <br>
+        <br>
+        <label for="">Qual seu filme favorito da saga O Senhor dos Aneis?</label>
+        <select multiple>
+            <option> A Sociedade do Anel </option>
+            <option> As Duas Torres </option>
+            <option> O Retorno do Rei </option>
+        </select>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit">
+            Enviar Formulário
+        </button>
+        <button type="reset">
+            Limpar Formulário
+        </button>
+    </form>
+</body>
+</html>
